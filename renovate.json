@@ -1,10 +1,16 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
-  {
-  "packagePatterns": ["*"],
-  "schedule": ["every weekend"],
-  "automerge": true
-  }
+    {
+      "schedule": [
+        "every weekend"
+      ],
+      "automerge": true,
+      "matchPackageNames": [
+        "*"
+      ]
+    }
   ]
 }
