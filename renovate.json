@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+  {
+  "packagePatterns": ["*"],
+  "schedule": ["every weekend"],
+  "automerge": true
+  }
+  ]
+}
